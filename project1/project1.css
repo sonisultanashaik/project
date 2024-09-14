@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    height:130vh;
+    background-image: cover;  
+    background-image: url("https://mynasadata.larc.nasa.gov/sites/default/files/2020-08/SVS%20Albedo.jpg"); 
+    background-image: cover;  
+}
+.info:hover{
+    background-image:url("https://images3.alphacoders.com/129/1293930.png");
+    background-repeat: no-repeat;
+    background-image: cover;  
+}
+
+ span{
+    color: white;
+    font-size: xx-large;
+    padding-top: 2%;
+}
+ .info span:hover{
+    color: black;
+}
+ul{
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    padding-top: 6%;
+    display: inline-block;
+}
+ul  li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 20px;
+    font-size: large; 
+}
+ul li  a:hover{
+    color: blue;
+   
+} 
+
+.content{
+    position: absolute;
+    right: 38%;
+    top:50%;
+    color: white;
+}
+.span1{
+    color: blue;
+    font-size:100%;
+   
+}
+.h1{
+    font-size: 250%;
+}
+.h2{
+    font-size:400%;
+
+}
+.h3{
+    color: rgb(53, 53, 138);
+    font-size: 180%;
+}
+.button1{
+    background-color: gray;
+    font-size: 20px;
+    text-decoration:none;
+    padding: 20px 40px;
+    border-radius:20px;
+    color: white;
+    }
+ .button a:hover{
+    color:blue;
+    text-decoration: underline;
+ }
+.aboutme{
+    height: 60vh;
+    background-color: rgb(50, 50, 231);
+    padding-left:12%;
+    padding-top:10%;
+    color: white;
+    display: flex;
+    justify-content:space-evenly; 
+}
+.h22{
+    font-size: 220%;    
+}
+.h11{
+    font-size: 280%;
+}
+.text1{
+    font-size: 150%;
+}
+.container{
+    width: 100%;
+    height:45vh;
+    background-color:rgb(43, 43, 204); 
+    }
+.box1{
+    display: flex;
+    justify-content: space-evenly;    
+    padding-left: 8%;
+    padding-top: 5%;
+    
+}
+.flex1{
+    display: flex;
+    justify-content: space-around;
+}
+.text2{
+     padding-left: 5%;
+}
+.text3{
+    padding-left: 5%;
+}
+.h111{
+    font-size: 150%;
+    color: black;
+}
+.h222{
+    font-size: 140%;
+    color: white;
+ }
+.container1{
+    background-color:  rgb(50, 50, 231);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 9%;   
+}
+.h2222{
+    color:white;
+    font-size: 140%;
+    padding-left:20%;
+}
+.online{
+    display: flex;
+    gap:2em;
+    color:rgb(176, 172, 172) ;
+}
+.online:hover{
+    color: white;
+}
+.portfolio{
+    display: flex;
+    background-color: white;
+    height:40vh;
+}
+.middle{
+  padding-left: 18%;
+  padding-top: 5%;
+} 
+.h1111{
+    font-size: 200%;
+    color: gray;
+}
+.h11111{
+    font-size: 300%;
+    color: black;
+}
+.but{
+    padding-left: 20%;
+    padding-top: 13%;
+}
+.button2{
+    background-color: rgb(58, 208, 208);
+    font-size: 20px;
+    text-decoration:none;
+    padding: 20px 40px;
+    border-radius:30px;
+    color: white; 
+}
+.portfolio a:hover{
+    text-decoration: underline;
+}
+
+.pictures{
+    background-color: white;
+    height:100vh;
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+}
+.img3{
+    grid-column: 1/3;
+    
+}
+.img4{
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.img5{
+    grid-column: 4/5;
+    
+}
+.img6{
+     grid-column: 4/5;
+}
+.img7{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.img8{
+    grid-column:2/3 ;
+    grid-row:2/3;
+}
+
+.clients{
+    background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149146012.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    padding-top: 12%;
+    text-align: center;
+}
+.text5{
+    color: white;
+}
+.h333{
+    font-size: 250%;
+}
+.h3333{
+    font-size: 300%;
+    padding-bottom:4%;
+}
+.ha1{
+    font-size: 150%;
+}
+.ha1:hover{
+    color: rgb(58, 58, 138);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.text6{
+    margin-left: 2%;
+    margin-top: 1%;
+    
+}
+.ha2{
+    color: yellow;
+}
+.images{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 8%;
+}
+.img10:hover{
+    box-shadow: 4px 2px 4px 2px white;
+    background:  rgb(94, 124, 173); 
+}
+.blog{
+    background-color:rgb(176, 163, 163);
+    height: 110vh;
+}
+.text7{
+    padding-left: 12%;  
+    padding-top: 6%;
+}
+.ha4{
+    font-size: 230%;
+    color:rgb(104, 104, 128) ;
+    padding-bottom:2%;
+}
+.ha5{
+    font-size:280%;
+}
+.ha6{
+    font-size:130%;
+}
+ .blogs{
+    display: flex;
+    justify-content: space-around;  
+    margin-left: 12%; 
+
+}  
+.blog1{
+    background-color: rgb(65, 65, 170);
+    width:40%;
+    height:35vh;
+    margin-top: 3%; 
+}
+.ha7{
+    font-size: 120%;
+    color: white;
+    text-align: center;
+    padding-top: 5%; 
+}
+.ha8{
+    font-size: 150%;
+    text-align: center;
+    padding-top: 5%;
+}
+.ha8 a{
+    color:white;
+    text-decoration: none;
+}
+.ha8 a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+.ha9{
+    font-size: 150%;
+    text-align: center;
+}
+.ha9 a{
+    color:white;
+    text-decoration: none;
+}
+.ha9 a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+.ha10{
+    font-size: 110%;
+    color: yellow;
+    text-align: center;
+    padding-top: 5%;
+}
+.blog4{
+    background-image: url("https://wallpapercave.com/wp/wp4094669.png");
+    width: 30%;
+    height: 40vh;
+    margin-right: 25%;
+    padding-left: 3%;
+       
+       
+}
+.ha16{
+    color:blue;
+    font-size: 150%;   
+}
+.ha17{
+    font-size: 250%;
+   padding-top: 2%;
+    color: white;
+}
+.ha18{
+    color: white;
+    font-size: 110%;
+    padding-top: 2%; 
+}
+.button3{
+    padding-top: 15%;
+}
+.button4{
+    background-color: yellow;
+    font-size: 20px;
+    text-decoration:none;
+    padding: 20px 40px;
+    border-radius:30px;
+    color: white;   
+}
+.ha17:hover{
+    text-decoration: underline;
+    color: lightcoral;
+}
+.button3 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.blogs1{
+    display: flex;
+    justify-content: start;
+    margin-top: 1%;
+    margin-left: 12%;
+    gap: 2em;   
+} 
+.blog2{
+    background-image: url("https://i.redd.it/ri2oowx1dec71.png");
+    width: 18%;
+    height: 23vh;
+    padding-left: 1%; 
+}
+.ha11{
+    color:white;
+    font-size: 110%;
+}
+.ha12{
+    font-size: 150%;  
+}
+.blog3{
+    background-image: url("https://p7.hiclipart.com/preview/84/749/310/insect-overlord-anime-manga-otaku-overlord-albedo.jpg");
+    width: 18%;
+    height: 23vh; 
+}
+.ha14{
+    color:blueviolet;
+    font-size: 110%;
+    text-align: center; 
+}
+.ha15{
+    font-size: 150%;
+    text-align: center;
+}
+.blog5{
+    background-color: white;
+    width: 20%;
+    height: 23vh;
+    padding-left: 1%;  
+}
+.ha19{
+    color:gray;
+    font-size: 110%; 
+}
+.ha20{
+    font-size: 180%;   
+}
+.ha21{
+    color: gray;
+    font-size: 100%;  
+}
+.blog5:hover{
+    text-shadow: 50%;
+    color: bisque;
+}
+.blog6{
+    background-color: palevioletred;
+    width:9%;
+    height:12vh;
+    text-align: center;
+    padding-top: 6%;
+}
+.ha22 a{
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+ 
+}
+.ha22 a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.contacts{
+    background-image:url("https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.text8{
+    padding-left: 13%;
+    padding-top: 10%;
+}
+.ha23{
+    font-size: 200%;
+    color: white;
+}
+.ha24{
+    font-size: 250%;
+    color: white;
+}
+.ha25{
+    color: white;
+    font-size: 110%;
+}
+.ha25 span2{
+    color: rgb(35, 35, 129);
+}
+.ha26{
+    font-size: 110%;   
+}
+.ha26 a{
+    text-decoration: none;
+    color: blue;
+}
+.ha26 a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+ .search{
+    padding-right: 14%;
+    padding-top: 14%;
+}
+
+.search input{
+    font-size: 100%;
+    color: rgb(37, 37, 181);
+    
+}
+.search h1{
+    color: white;
+    height: 3em;
+    font-size: 250%;
+}
+.search p{
+    color: rgb(86, 86, 143);
+    font-size: 130%;
+    height:3em;
+}
+.f1 
+{
+    display: flex;
+    justify-content: space-between;
+    gap:2em;
+}
+.main input{
+    height: 2em;
+    width: 10em;
+}
+.main1 input{
+    height: 2em; 
+}
+.main2
+{
+    margin-top: 2em;
+}
+.main2 input{
+    width:25em;
+    height:5em;
+}
+.main3{
+    margin-top: 2em;
+}
+.main3 input{
+    width:25em;
+    height:2em;
+    color: rgb(108, 101, 101);
+}
+.footer{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.ha29{
+    color: gray;
+
+     
+}
+.ha30 a{
+    text-decoration: none;
+    color: gray;
+
+}
+.ha30:hover{
+    text-decoration: underline;
+    color: rgb(17, 0, 255);
+}
+@media screen and (max-width:450px){
+    .info{
+        height:200vh;
+    }
+    .content{
+        margin-left: 15px;
+    }
+    .h1,.h2
+    {
+        font-size: 60px;
+    }
+    .h3 
+    {
+        font-size:25px;
+
+    }
+    .aboutme
+    {
+        flex-direction: column;
+        height: 150vh;
+    
+    }
+    .container1{
+        flex-direction: column;
+        height: 50vh;
+    }
+    .online{
+        margin-left: 8%;
+        margin-bottom: 40%;
+    }
+    .portfolio{
+        flex-direction: column;
+        height:80vh;
+        margin-top: 20%;
+        
+    }
+    .button2{
+        margin-left: 10%;
+        margin-bottom:20%;
+
+    }
+    .contacts{
+        height:170vh;
+        flex-direction: column;
+    }
+    .search{
+        margin-bottom: 50%;
+        margin-left: 10px;
+    }
+    .f1{
+        flex-direction: column;
+    }
+    .footer{
+        height: 50%;
+        flex-direction: column;
+    }
+    .ha30{
+        margin-top: 10%;
+        margin-left: 60%;
+    }
+    .clients{
+        height:270vh;
+      
+    }
+    .text5{
+        margin-top: 40%;
+    }
+    .images{
+        flex-direction: column;
+        margin-top:15% ;
+        gap: 10em;
+    }
+    .container{
+        height:130vh;
+    }
+    .box1{
+        flex-direction: column;
+
+    }
+    .flex1{
+        margin-top: 15%;
+    }
+    .pictures{
+       grid-template-columns: auto;
+    }
+    .blog{
+        height: 270vh;
+    }
+    .text7{
+        margin-bottom: 10%;
+    }
+    .blogs{
+        flex-direction: column;
+        
+    }
+    .blog1{
+        width: 80%;
+        margin-top: 10%;
+    }
+    .blog4{
+        width: 78%;
+        height:50vh;
+        margin-top: 4%;
+    }
+    .blogs1{
+        flex-direction: column;
+    }
+    .blog2{
+        width: 80%;
+        margin-top: 4%;
+    }
+    .blog3{
+        width: 85%;
+        margin-top: 2%; 
+    }
+    .blog5{
+        width: 83%;
+        height: 30vh;
+        margin-top: 2%;
+    }
+    .blog6{
+        width: 85%; 
+        height: 15vh;
+        margin-top: 2%;
+        padding-top: 20%;
+        
+    }
+
+}   
